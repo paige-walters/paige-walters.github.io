@@ -77,30 +77,32 @@
           </div>
         </div>
       </div>
-      <div id="contact" class="container">
+      <div class="container">
+        <div class="notifications"></div>
         <h2 class="text-center">Contact Me Here</h2>
-        <form>
+        <form id="contact-form" method="post" action="contact.php" role="form">
           <div class="form-row">
             <div class="col-6">
-              <input type="text" class="form-control" placeholder="First Name">
+              <input type="text" name="firstName" class="form-control" placeholder="First Name" value="First Name">
             </div>
             <div class="col-6">
-              <input type="text" class="form-control" placeholder="Last Name">
+              <input type="text" name="lastName" class="form-control" placeholder="Last Name" value="Last Name">
             </div>
           </div>
           <div class="form-row">
             <div class="col-8">
-              <input type="email" class="form-control" placeholder="Email">
+              <input type="email" name="email" class="form-control" placeholder="Email" required="required" data-error="Valid email is required" value="Email">
             </div>
             <div class="col-4">
-              <input type="text" class="form-control" placeholder="Subject">
+              <input type="text" name="subject" class="form-control" placeholder="Subject" value="Subject">
             </div>
             <div class="col-12 form-group">
-              <textarea class="form-control" id="message" rows="6" placeholder="Your Message"></textarea>
+              <textarea class="form-control" name="message" id="message" rows="6" placeholder="Your Message" value="Your Message"></textarea>
             </div>
             <div>
-             <button type="submit" class="btn btn-info">Send</button>
+             <button type="submit" class="btn btn-info" value="Send Message">Send</button>
             </div>
+            <div class="help-block with-errors"></div>
           </div>
         </form>
       </div>
