@@ -94,11 +94,11 @@ li {
     height: 15vw;
     object-fit: cover;
 }
-.emailLink {
+/* .emailLink {
 	text-decoration: none;
 	background-color: #ace1af;
 }
 
 .emailLink:hover, .emailLink:active {
 	text-decoration-color: #addfad; 
-}
+} */
