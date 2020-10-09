@@ -95,5 +95,5 @@ li {
     object-fit: cover;
 }
 .emailLink {
-	pointer-events: none;
+	text-decoration: none;
 }
