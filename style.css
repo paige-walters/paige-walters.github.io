@@ -31,6 +31,15 @@ html {
   padding: 5px;
 }
 
+.emailLink {
+	text-decoration: none;
+	/* background-color: #3ad889; */
+}
+
+.emailLink:hover, .emailLink:active {
+	text-decoration: none;
+}
+
 h1 {
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 	font-size: 1.75em;
@@ -93,12 +102,4 @@ li {
     width: 100%;
     height: 15vw;
     object-fit: cover;
-}
-.emailLink {
-	text-decoration: none;
-	/* background-color: #3ad889; */
-}
-
-.emailLink:hover, .emailLink:active {
-	text-decoration: none;
 }
