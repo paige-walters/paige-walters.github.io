@@ -94,3 +94,6 @@ li {
     height: 15vw;
     object-fit: cover;
 }
+.emailLink {
+	pointer-events: none;
+}
