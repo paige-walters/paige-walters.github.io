@@ -96,8 +96,9 @@ li {
 }
 .emailLink {
 	text-decoration: none;
+	background-color: #ace1af;
 }
 
-a:hover, a:active {
-	background-color: #98FB98;
+.emailLink:hover, .emailLink:active {
+	text-decoration-color: #addfad; 
 }
