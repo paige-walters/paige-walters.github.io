@@ -95,5 +95,9 @@ li {
     object-fit: cover;
 }
 .emailLink {
-	pointer-events: none;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	background-color: #98FB98;
 }
