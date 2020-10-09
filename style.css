@@ -99,6 +99,6 @@ li {
 	/* background-color: #3ad889; */
 }
 
-/* .emailLink:hover, .emailLink:active {
-	text-decoration-color: #20794c; 
-} */
+.emailLink:hover, .emailLink:active {
+	text-decoration: none;
+}
